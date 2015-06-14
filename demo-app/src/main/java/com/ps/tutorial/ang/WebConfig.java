@@ -1,4 +1,4 @@
-package com.ps.tutorial.rest;
+package com.ps.tutorial.ang;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -6,8 +6,8 @@ import org.springframework.web.servlet.config.annotation.*;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.ps.tutorial.rest.controllers"})
-public class WebConfig extends WebMvcConfigurerAdapter {
+@ComponentScan(basePackages = {"com.ps.tutorial.ang.controllers"})
+public class WebConfig extends WebMvcConfigurerAdapter{
 
     @Override
     public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
